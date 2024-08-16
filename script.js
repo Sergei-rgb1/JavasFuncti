@@ -22,3 +22,5 @@ function updatePoints (bonus, newPoints) {
     }
     return newPoints + userPoints;
 }
+userPoints = updatePoints(2, 100);
+avatar = getAvatar(2112);
