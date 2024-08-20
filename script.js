@@ -77,7 +77,7 @@ function computeDistance (x1, y1, x2, y2,) {
     var dx = x1 - x2;
     var dy = y1 - y2;
     var d2 = (dx * dx) + (dy * dy);
-    var d = Match.sqrt(d2);
+    var d = Math.sqrt(d2);
     return d;
 }
 
@@ -89,3 +89,5 @@ function circleArea(r) {
 setup(widht, height);
 var area = circleArea(radius);
 var distance = computeDistance(x, y, centerX, centerY);
+alert("area: " + area);
+alert("Distance: " + distance);

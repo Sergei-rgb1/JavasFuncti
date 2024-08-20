@@ -1,0 +1,13 @@
+.tgf {
+    display: block;
+    margin: 20px;
+    color: slateblue;
+}
+
+h1 {
+    margin: 15px;
+    color: blueviolet;
+    font-size: 40px;
+    text-align: center;
+    flex-direction: center;
+}
